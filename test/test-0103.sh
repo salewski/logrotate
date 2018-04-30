@@ -10,4 +10,4 @@ cleanup 103
 preptest test.log 103 1 0
 
 ! $RLR -d test-config.103 2>&1 | \
-    grep -q "size option is mutually exclusive with the time interval options."
+    grep -q "warning: '.*' overrides previously specified '.*'"
